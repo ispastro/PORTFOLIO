@@ -66,35 +66,35 @@ const Home: React.FC = () => {
           
           <div className="animate-fade-in flex justify-center lg:justify-end">
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-dark-700">
-              <img 
+              {/* <img 
                 src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
                 alt="Haile Asaye" 
                 className="w-full h-full object-cover"
-              />
+              /> */}
               <div className="absolute inset-0 ring-2 ring-secondary-500 ring-opacity-50 rounded-full"></div>
               
-              {/* Tech stack floating badges */}
+             
               <div className="absolute -right-4 top-1/4 bg-dark-800 p-2 rounded-lg shadow-lg animate-pulse-slow">
-                <img 
+                {/* <img 
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" 
-                  alt="Laravel" 
+                  
                   className="w-8 h-8"
-                />
+                /> */}
               </div>
               <div className="absolute -left-4 top-1/3 bg-dark-800 p-2 rounded-lg shadow-lg animate-pulse-slow" style={{ animationDelay: '1s' }}>
-                <img 
+                {/* <img 
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" 
-                  alt="Vue.js" 
+               
                   className="w-8 h-8"
-                />
+                /> */}
               </div>
-              <div className="absolute bottom-4 left-1/4 bg-dark-800 p-2 rounded-lg shadow-lg animate-pulse-slow" style={{ animationDelay: '1.5s' }}>
+              {/* <div className="absolute bottom-4 left-1/4 bg-dark-800 p-2 rounded-lg shadow-lg animate-pulse-slow" style={{ animationDelay: '1.5s' }}>
                 <img 
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" 
                   alt="Tailwind CSS" 
                   className="w-8 h-8"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
